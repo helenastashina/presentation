@@ -1,5 +1,11 @@
 @page {
-  margin: 5mm 5mm 5mm 5mm;
+  margin: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
 }
 
 html {
@@ -66,15 +72,21 @@ table {
   object-position: center;
 }
 
-.page-section__img-row {
-  display: table-row;
+.page-section__img-table {
+  display: table;
+  width: 100%;
   margin-top: 26px;
   margin-bottom: 40px;
+  border-spacing: 26px;
+}
+
+.page-section__img-row {
+  display: table-row;
 }
 
 .page-section__img-sm {
   display: table-cell;
-  width: calc(50% - 13px);
+  width: 50%;
   height: 380px;
   border-radius: 50px;
   overflow: hidden;
