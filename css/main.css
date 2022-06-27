@@ -47,12 +47,13 @@ table {
   flex-direction: column;
   flex-grow: 1;
   min-width: 0;
-  padding: 80px 37px 70px;
+  /*padding: 80px 37px 70px;*/
+  padding-bottom: 70px;
 }
 
 .page-section__img-wrap {
   height: 690px;
-  /*max-height: calc((100vh - 464px) * 0.5);*/
+  max-height: calc((100vh - 464px) * 0.5);
   margin-bottom: 20px;
   border-radius: 50px;
   overflow: hidden;
@@ -128,6 +129,11 @@ table {
   margin-bottom: 20px;
 }
 
+.page-section__advantages-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .page-section__advantages-icon {
   display: flex;
   justify-content: center;
@@ -138,6 +144,7 @@ table {
   display: block;
   max-height: 38px;
   max-width: 38px;
+  margin: 0 auto;
 }
 
 .page-section__columns-wrap {
