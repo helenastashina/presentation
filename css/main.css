@@ -250,14 +250,21 @@ table {
 }
 
 .page-section__about {
-  display: flex;
+  display: table-row;
   margin-bottom: 60px;
+}
+
+.page-section__about-item {
+  display: table-cell;
 }
 
 .page-section__about-item:first-of-type {
   padding-right: 40px;
-  margin-right: 34px;
   border-right: 1px solid #0E1F3B;
+}
+
+.page-section__about-item:last-of-type {
+  padding-left: 34px;
 }
 
 .page-section__about-item p {
