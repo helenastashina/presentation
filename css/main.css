@@ -1,5 +1,5 @@
 @page {
-  margin: 0mm 0mm 0mm 0mm;
+  margin: 5mm 5mm 5mm 5mm;
 }
 
 html {
@@ -39,7 +39,7 @@ table {
 .page-section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .page-section__inner {
@@ -51,7 +51,7 @@ table {
 }
 
 .page-section__img-wrap {
-  flex-grow: 1;
+  height: 100%;
   max-height: calc((100vh - 464px) * 0.5);
   margin-bottom: 20px;
   border-radius: 50px;
@@ -322,6 +322,7 @@ a.footer__link {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 10px;
+  white-space: nowrap;
 }
 
 .footer__link img {
