@@ -67,13 +67,13 @@ table {
 }
 
 .page-section__img-row {
-  display: flex;
-  justify-content: space-between;
+  display: table-row;
   margin-top: 26px;
   margin-bottom: 40px;
 }
 
 .page-section__img-sm {
+  display: table-cell;
   width: calc(50% - 13px);
   height: 380px;
   border-radius: 50px;
