@@ -51,8 +51,8 @@ table {
 }
 
 .page-section__img-wrap {
-  height: 100%;
-  max-height: calc((100vh - 464px) * 0.5);
+  height: 690px;
+  /*max-height: calc((100vh - 464px) * 0.5);*/
   margin-bottom: 20px;
   border-radius: 50px;
   overflow: hidden;
@@ -112,11 +112,11 @@ table {
 }
 
 .page-section__advantages-columns {
-  display: flex;
+  display: table-row;
 }
 
 .page-section__advantages-list {
-  display: block;
+  display: table-cell;
   width: 50%;
   margin: 0;
   padding: 0;
@@ -124,8 +124,7 @@ table {
 }
 
 .page-section__advantages-list li {
-  display: flex;
-  align-items: center;
+  display: table-row;
   margin-bottom: 20px;
 }
 
@@ -250,8 +249,11 @@ table {
 }
 
 .page-section__about {
-  display: table-row;
   margin-bottom: 60px;
+}
+
+.page-section__about-row {
+  display: table-row;
 }
 
 .page-section__about-item {
