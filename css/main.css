@@ -80,13 +80,14 @@ table {
 }
 
 .page-section__inner {
-  height: calc(100% - 230px);
+  height: 1700px;
   padding: 85px 37px 70px;
+  box-sizing: border-box;
 }
 
 .page-section__img-wrap {
-  height: 490px;
-  margin-bottom: 20px;
+  height: 690px;
+  margin-bottom: 38px;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -133,6 +134,10 @@ table {
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
+}
+
+.page-section__text-head {
+  height: 228px;
 }
 
 .page-section__text-content {
