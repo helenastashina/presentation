@@ -43,9 +43,6 @@ table {
 }
 
 .page-section {
-}
-
-.page-section.page-section--intro {
   height: 1920px;
   background: #0E1F3B;
 }
@@ -80,16 +77,26 @@ table {
 }
 
 .page-section__inner {
-  height: 1696px;
-  padding: 85px 37px 70px;
+  height: 1669px;
+  padding: 85px 37px 50px;
   box-sizing: border-box;
+  background: #FFFFFF;
+}
+
+.page-section__inner--intro {
+  height: 100%;
+  background: transparent;
 }
 
 .page-section__img-wrap {
-  height: 200px;
+  height: 690px;
   margin-bottom: 38px;
   border-radius: 50px;
   overflow: hidden;
+}
+
+.page-section__img-wrap.page-section__img-wrap--md {
+  height: 760px;
 }
 
 .page-section__img-wrap img {
@@ -343,6 +350,7 @@ table {
 }
 
 .footer {
+  box-sizing: border-box;
   padding: 20px 60px;
   background: #0E1F3B;
   color: #FFFFFF;
