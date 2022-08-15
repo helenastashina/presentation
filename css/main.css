@@ -48,6 +48,10 @@ table {
   min-height: 100vh;
 }
 
+.page-section.page-section--intro {
+  background: #0E1F3B;
+}
+
 .page-section__inner {
   display: flex;
   flex-direction: column;
