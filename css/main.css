@@ -43,8 +43,7 @@ table {
 }
 
 .page-section {
-  display: flex;
-  flex-direction: column;
+  height: 100%;
   min-height: 100vh;
 }
 
@@ -53,12 +52,8 @@ table {
 }
 
 .page-section__inner {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  min-width: 0;
-  /*padding: 80px 37px 70px;*/
-  padding-bottom: 70px;
+  height: calc(100% - 230px);
+  padding: 85px 37px 70px;
 }
 
 .page-section__img-wrap {
